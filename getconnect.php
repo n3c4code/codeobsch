@@ -35,10 +35,10 @@ $ansi->getHistory();
 //echo $ssh->getLog();
 
 
-//$fp = fopen("logger.txt", "a"); // Îòêðûâàåì ôàéë â ðåæèìå çàïèñè 
-//$mytext = $ssh->exec('ls -la'); // Èñõîäíàÿ ñòðîêà
-//$test = fwrite($fp, $mytext); // Çàïèñü â ôàéë
+//$fp = fopen("logger.txt", "a"); // открываем файл для записи
+//$mytext = $ssh->exec('ls -la'); // Исходная строка
+//$test = fwrite($fp, $mytext); // Запись в файл
 //if ($test) echo 'Äàííûå â ôàéë óñïåøíî çàíåñåíû.';
-//else echo 'Îøèáêà ïðè çàïèñè â ôàéë.';
-//fclose($fp); //Çàêðûòèå ôàéëà
+//else echo 'Ошибка при записи в файл.';
+//fclose($fp); //Закрываем файл
 ?>
